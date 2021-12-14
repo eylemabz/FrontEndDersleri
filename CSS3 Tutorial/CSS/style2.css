@@ -1,0 +1,44 @@
+*{
+  font-size:15px;
+}
+
+h1{
+  color:red;
+}
+
+p{
+  color:red;
+  background-color: blue;
+}
+
+a{
+  text-decoration:none;
+}
+
+#logo{
+  color:aqua;
+  background-color:bisque;
+}
+
+.info{
+  color:blue;
+  background-color:coral;
+}
+
+#para1.lead{
+  color:bisque;
+  background-color:brown;
+}
+
+
+ul li a{
+    text-decoration:underline;
+}
+
+.info span{
+  color:chartreuse;
+}
+
+.info .primary{
+  color:cornflowerblue;
+}

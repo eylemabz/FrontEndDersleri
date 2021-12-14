@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nth-Child Selector</title>
+  <style>
+    ul{
+    font-size: 1.5em;
+    list-style-type: none;
+    }
+    /*n=0 b=0 ,0,2,4,6,,8,10*/
+    ul li:nth-child(2n){
+      color:chocolate;
+    }
+    ul li:nth-child(2n+1){
+      color:aqua;
+    }
+    ul li:nth-child(n+4){
+      color:darkgoldenrod;
+    }
+   /*
+    p{
+     font-size:1.5em;
+    }
+    p:first-child{
+    color:blueviolet;
+    }
+  
+    p:nth-child(3){
+    color:red;
+    }
+     p:last-child{
+    color:chocolate;
+    }
+    */
+    p:nth-child(even){
+    color:blueviolet;
+  }
+  /* an+b n=*0,b=0 default değerler*/
+  </style>
+</head>
+<body>
+  <ul>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+  </ul>
+  {{/*  <p>
+    Lorem ipsum dolor sit amet.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi earum ex quasi est eius soluta!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi earum ex quasi est eius soluta!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi earum ex quasi est eius soluta!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi earum ex quasi est eius soluta!
+  </p>  */}}
+</body>
+</html>
