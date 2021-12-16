@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive - CSS Units</title>
+
+  <!--
+  Responsive Units
+  em,rem,%,vw,vh
+  -->
+
+  <style>
+    *{
+      padding:0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  /*
+  html{
+    font-size: 20px;
+  }
+  
+  div{
+    font-size:1.5em;
+  }
+  p{
+    font-size:1.5em;
+    padding:1.5em;
+  }
+  */
+  
+  .arkaplan{
+    background:url("./FrondEndDersleri/CSS3 Tutorial/images/background.jpeg") center center no-repeat;
+    background-size:cover;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    color: cadetblue;
+    align-items:center;
+    padding:10rem;
+  }
+  h1{
+   margin-bottom: 1rem;
+   font-size:3rem;
+  }
+  p{
+    font-size: 2rem;
+    letter-spacing:1px;
+  }
+  @media(max-width:500px){
+         h1{
+          margin-bottom:0.5rem;
+          font-size:2rem;
+        }
+        p{
+          font-size:1rem;
+          
+        }
+  }
+  </style>
+</head>
+<body>
+  <div class="arkaplan">
+   <h1>Welcome To The Site</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eius.</p>
+  </div>
+  
+</body>
+</html>
